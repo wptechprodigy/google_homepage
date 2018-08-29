@@ -1,0 +1,122 @@
+
+body {
+	padding: 0;
+	margin: 0;
+	font: arial, sans-serif;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #fff;
+}
+
+#menu-right li {
+    float: right;
+}
+
+li a {
+    display: inline-block;
+    color: #333;
+    text-align: center;
+    padding: 20px 15px;
+    text-decoration: none;
+}
+
+/* Change the link color to #111 (black) on hover */
+li a:hover {
+    text-decoration: underline;
+}
+
+.img-thumb-round {
+	border-radius: 50%;
+	width: 40px;
+	y-index: 5;
+}
+
+.align-content {
+	text-align: center;
+}
+
+#glogo {
+	padding-top: 15%;
+	padding-bottom: 20px;
+	
+}
+
+.inp-height {
+	line-height: 1.5;
+	padding: 10px;
+	margin-bottom: 20px;
+	font-size: 1em;
+	drop-shadow: 0 1px 3px #333; 
+}
+
+button{
+	padding: 5px;
+	font-size: 1.2em;
+	margin-left: 10px;
+	margin-bottom: 20px;
+}
+
+.lang-offered {
+	margin-bottom: 100px;
+	font-size: 0.8em;
+}
+
+.lang-offered li {	
+	display: inline;
+	text-align: center;
+}
+
+.lang-offered li a {
+	text-decoration:  none;
+	color: blue;
+}
+
+.lang-offered li a:hover {
+	text-decoration:  underline;
+}
+
+.footer {
+	background-color: #DEE0E0;
+	margin-bottom: 0;
+	color: #898C8C;
+	padding-bottom: 20px;
+}
+
+.footer-top {
+	padding-top: 10px;
+	padding-left: 20px;
+}
+
+.footer-top h3 {
+	font-weight: normal;
+}
+
+.footer-content a {
+	font-size: 0.7em;
+	margin-bottom: 20px;
+}
+
+.footer-left a, .footer-right a {
+	text-decoration: none;
+	color: #898C8C;
+	display: inline;
+	padding-right: 20px;
+}
+
+.footer-left a:hover, .footer-right a:hover {
+	text-decoration: underline;
+}
+
+.footer-left {
+	padding-left: 20px;
+	float: left;
+}
+
+.footer-right {
+	float: right;
+}
